@@ -1,0 +1,33 @@
+#include <WINDOWS.H>
+
+BASE_ICON ICON "test_demo_vk/resources/app.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0, 0, 0, 1
+PRODUCTVERSION 0, 0, 0, 8
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN 
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "SILD Team\0"
+            VALUE "FileDescription", "Vulkan Sample\0"
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "InternalName", "LITHE ENGINE\0"
+            VALUE "LegalCopyright", "\xA9 2025 - SILD Team \0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "demo_vk.exe\0"
+            VALUE "ProductName", "LITHE ENGINE\0"
+            VALUE "ProductVersion", "Dev Version 0.0.0.08\0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+            //VALUE "Translation", 0x409, 1252    // Language English (EUA)
+            //VALUE "Translation", 0x416, 1252    // Idioma português (Brasil)
+            VALUE "Translation", 0x000, 0x04B0      // Local Computer Lang
+    END
+END
+

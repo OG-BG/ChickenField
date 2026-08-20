@@ -1,0 +1,91 @@
+{
+  "mapName": "ShootingRange",
+  "basePath": "res/maps/Shooting_range/",
+  "globalTextures": [
+    { "id": 0, "path": "res/Arts_Scenes/Textures/LandScape/Forest_shooting_Base.png", "name": "BaseMap" },
+    { "id": 1, "path": "res/Arts_Scenes/Textures/LandScape/shooting_floor.png", "name": "DirtRock" },
+    { "id": 2, "path": "res/Arts_Scenes/Textures/LandScape/shooting_floor_N.png", "name": "DirtRockNormal" },
+    { "id": 3, "path": "res/Arts_Scenes/Textures/LandScape/Grass_BaseColor.png", "name": "Grass" },
+    { "id": 4, "path": "res/Arts_Scenes/Textures/LandScape/Road_BaseColor.png", "name": "ground1" },
+    { "id": 5, "path": "res/Arts_Scenes/Textures/LandScape/Rock_BaseColor.png", "name": "Rock" },
+    { "id": 6, "path": "res/Arts_Scenes/Textures/LandScape/Rock_Normal.png", "name": "RockNormal" },
+  ],
+  "chunks": [
+    {
+      "chunkID": 47,
+      "SectionBaseX": 0.0,
+      "SectionBaseY": 0.0,
+      "HeightMapID": 53,
+      "WeightMapID": 6,
+      "HeightmapTexture": {
+        "ObjectName": "Texture2D_53",
+        "ObjectPath": "res/maps/Shooting_range/heightmap/Texture2D_53.png"
+      },
+      "WeightmapTextures": [
+        {
+          "ObjectName": "Texture2D_6",
+          "ObjectPath": "res/maps/Shooting_range/weightmap/Texture2D_6.png"
+        }
+      ],
+      "CachedLocalBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -32.617188
+        },
+        "Max": {
+          "X": 62.0,
+          "Y": 62.0,
+          "Z": 0.4140625
+        },
+      },
+      "ComponentSizeQuads" : 62,
+      "SubsectionSizeQuads" : 31,
+      "NumSubsections" : 2,
+      "layerTexID" : {
+        "R" : -1,
+        "G" : "DirtRock",
+        "B" : -1,
+        "A" : -1,
+      }
+    },
+    {
+      "chunkID": 48,
+      "SectionBaseX": 62.0,
+      "SectionBaseY": 0.0,
+      "HeightMapID": 52,
+      "WeightMapID": 0,
+      "HeightmapTexture": {
+        "ObjectName": "Texture2D_52",
+        "ObjectPath": "res/maps/Shooting_range/heightmap/Texture2D_52.png"
+      },
+      "WeightmapTextures": [
+        {
+          "ObjectName": "Texture2D_6",
+          "ObjectPath": "res/maps/Shooting_range/weightmap/Texture2D_0.png"
+        }
+      ],
+      "CachedLocalBox": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -32.617188
+        },
+        "Max": {
+          "X": 62.0,
+          "Y": 62.0,
+          "Z": 0.4140625
+        },
+      },
+      "ComponentSizeQuads" : 62,
+      "SubsectionSizeQuads" : 31,
+      "NumSubsections" : 2,
+      "layerTexID" : {
+        "R" : -1,
+        "G" : "DirtRock",
+        "B" : -1,
+        "A" : -1,
+      }
+    }
+  ]
+}
